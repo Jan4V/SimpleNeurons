@@ -9,6 +9,6 @@ namespace SimpleNeurons.Lib
     public abstract class Output : ParameteredOutput
     {
         public abstract void Invoke();
-        public override int GetExpectedParameters() { return 0; }
+        public override int GetExpectedParameters() => 0;
     }
 }

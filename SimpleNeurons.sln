@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleNeurons.OsuTest", "SimpleNeurons.OsuTest\SimpleNeurons.OsuTest.csproj", "{8EF7B248-58D8-4AB9-9651-9BCC7298CF83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleNeurons.OsuLib", "SimpleNeurons.OsuLib\SimpleNeurons.OsuLib.csproj", "{1B02887F-ABA5-46C9-A13B-87DDC3A63533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleNeurons.Lib", "SimpleNeurons.Lib\SimpleNeurons.Lib.csproj", "{33917F64-1303-43FD-937A-A5BF56A6C429}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{552F0000-061E-4097-A316-B1E5531D70D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "osu! implementation", "osu! implementation", "{5CE49BD2-83C0-41A4-A24B-0D5FD3C36769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleNeurons.IOLib", "SimpleNeurons.IOLib\SimpleNeurons.IOLib.csproj", "{D28075AA-3461-43B6-86D6-1631A306B213}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EF7B248-58D8-4AB9-9651-9BCC7298CF83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF7B248-58D8-4AB9-9651-9BCC7298CF83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF7B248-58D8-4AB9-9651-9BCC7298CF83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF7B248-58D8-4AB9-9651-9BCC7298CF83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B02887F-ABA5-46C9-A13B-87DDC3A63533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B02887F-ABA5-46C9-A13B-87DDC3A63533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B02887F-ABA5-46C9-A13B-87DDC3A63533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B02887F-ABA5-46C9-A13B-87DDC3A63533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33917F64-1303-43FD-937A-A5BF56A6C429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33917F64-1303-43FD-937A-A5BF56A6C429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33917F64-1303-43FD-937A-A5BF56A6C429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33917F64-1303-43FD-937A-A5BF56A6C429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D28075AA-3461-43B6-86D6-1631A306B213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D28075AA-3461-43B6-86D6-1631A306B213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D28075AA-3461-43B6-86D6-1631A306B213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D28075AA-3461-43B6-86D6-1631A306B213}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8EF7B248-58D8-4AB9-9651-9BCC7298CF83} = {5CE49BD2-83C0-41A4-A24B-0D5FD3C36769}
+		{1B02887F-ABA5-46C9-A13B-87DDC3A63533} = {5CE49BD2-83C0-41A4-A24B-0D5FD3C36769}
+		{33917F64-1303-43FD-937A-A5BF56A6C429} = {552F0000-061E-4097-A316-B1E5531D70D0}
+		{D28075AA-3461-43B6-86D6-1631A306B213} = {552F0000-061E-4097-A316-B1E5531D70D0}
+	EndGlobalSection
+EndGlobal

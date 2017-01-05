@@ -41,11 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mouse Output\MouseClickOutput.cs" />
+    <Compile Include="Mouse Output\MouseMovementOutput.cs" />
     <Compile Include="Screen Input\DistanceFromColorFilter.cs" />
     <Compile Include="Screen Input\ScreenInput.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Screen Input\ScreenInterface.cs" />
     <Compile Include="Screen Input\ScreenSearchInput.cs" />
+    <Compile Include="Win32.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SimpleNeurons.Lib\SimpleNeurons.Lib.csproj">

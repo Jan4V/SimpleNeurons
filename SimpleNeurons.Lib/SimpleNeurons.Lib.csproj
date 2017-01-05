@@ -43,6 +43,7 @@
     <Compile Include="Filter.cs" />
     <Compile Include="Input.cs" />
     <Compile Include="NeuralInterface.cs" />
+    <Compile Include="Neuron.cs" />
     <Compile Include="Output.cs" />
     <Compile Include="ParameteredOutput.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

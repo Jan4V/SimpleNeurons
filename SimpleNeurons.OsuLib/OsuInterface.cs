@@ -8,24 +8,22 @@ namespace SimpleNeurons.OsuLib
 {
     class OsuInterface : NeuralInterface
     {
-        private List<Tuple<Input, ParameteredOutput>> _neurons;
+        private List<Neuron> _neurons;
         private List<ParameteredOutput> _outputs;
         private readonly Random _rand;
 
         public OsuInterface()
         {
-            _neurons = new List<Tuple<Input, ParameteredOutput>>();
+            _neurons = new List<Neuron>();
             _outputs = new List<ParameteredOutput>();
             _rand = new Random();
         }
 
-        public override void AddNeuron(Tuple<Input, ParameteredOutput> neuron) => _neurons.Add(neuron);
+        public override void AddNeuron(Neuron neuron) => _neurons.Add(neuron);
 
-        public override Tuple<Input, ParameteredOutput> GetRandomNeuron() => new Tuple<Input, ParameteredOutput>(GetRandomInput(), _outputs[_rand.Next(_outputs.Count)]);
+        public override Neuron GetRandomNeuron() => new Neuron(GetRandomInput(), _outputs[_rand.Next(_outputs.Count)]);
 
-        public override void Think()
-        {
-        }
+        public override void Think() => _neurons.ForEach(neuron => neuron.Evaluate());
 
         private Input GetRandomInput()
         {

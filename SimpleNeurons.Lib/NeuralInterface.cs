@@ -8,8 +8,8 @@ namespace SimpleNeurons.Lib
 {
     public abstract class NeuralInterface
     {
-        public abstract Tuple<Input, ParameteredOutput> GetRandomNeuron();
-        public abstract void AddNeuron(Tuple<Input, ParameteredOutput> neuron);
+        public abstract Neuron GetRandomNeuron();
+        public abstract void AddNeuron(Neuron neuron);
         public abstract void Think();
     }
 }
